@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Valerii2022/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/Valerii2022/goit-react-hw-01-components/static/js/main.681b57f1.js",
+    "main.js": "/Valerii2022/goit-react-hw-01-components/static/js/main.07d3183d.js",
     "index.html": "/Valerii2022/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/Valerii2022/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.681b57f1.js.map": "/Valerii2022/goit-react-hw-01-components/static/js/main.681b57f1.js.map"
+    "main.07d3183d.js.map": "/Valerii2022/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.681b57f1.js"
+    "static/js/main.07d3183d.js"
   ]
 }
