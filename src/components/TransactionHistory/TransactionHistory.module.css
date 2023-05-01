@@ -1,0 +1,27 @@
+.transaction__history {
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #8e8e8e;
+  width: 500px;
+  margin: 0 auto 50px auto;
+  overflow: hidden;
+}
+
+.transaction__history thead {
+  border-collapse: collapse;
+  background-color: #4a89d9;
+}
+
+.transaction__history th {
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  color: beige;
+  padding: 10px;
+}
+
+.transaction__history td {
+  color: #8e8e8e;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+  padding: 10px;
+}
