@@ -1,5 +1,20 @@
 .friend__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
 }
 
 .item {
+  background-color: #f2f5ff;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 2px 2px 5px #8e8e8e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
 }
