@@ -1,13 +1,18 @@
 import PropTypes from 'prop-types';
-// import css from './FriendListItem.module.css';
+import css from './FriendListItem.module.css';
+import { getStatusColor } from '../../utils/getStatusColor';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
+  const background = getStatusColor();
   return (
-    <li className="item">
-      <span className="status">isOnline{isOnline}</span>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
-    </li>
+    <>
+      <span
+        className={css.status}
+        style={{ backgroundColor: [background] }}
+      ></span>
+      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={css.name}>{name}</p>
+    </>
   );
 };
 
