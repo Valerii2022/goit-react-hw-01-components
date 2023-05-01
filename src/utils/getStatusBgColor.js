@@ -1,4 +1,4 @@
-export function getStatusColor(status) {
+export function getStatusBgColor(status) {
   if (status) {
     return 'green';
   }

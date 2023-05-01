@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
-import { getRandomColor } from '../../utils/getRandomColor';
+import { getRandomBgColor } from '../../utils/getRandomBgColor';
 
 export const Statistics = ({ title, stats }) => {
   return (
@@ -13,7 +13,7 @@ export const Statistics = ({ title, stats }) => {
             <li
               className={css.item}
               key={el.id}
-              style={{ backgroundColor: getRandomColor() }}
+              style={{ backgroundColor: getRandomBgColor() }}
             >
               <span className={css.label}>{el.label}</span>
               <span className={css.percentage}>{el.percentage}</span>
