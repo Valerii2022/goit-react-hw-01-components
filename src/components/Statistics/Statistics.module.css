@@ -14,7 +14,7 @@
   margin: 30px 0;
 }
 
-.stat__list {
+.statList {
   list-style: none;
   display: flex;
   background-color: #f2f5ff;
